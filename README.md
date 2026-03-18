@@ -1,4 +1,4 @@
-# keepass-crack
+# keepass-cracker
 
 A Python tool to decrypt and dump all entries from a KeePass `.kdbx` vault.
 
@@ -12,10 +12,10 @@ pip install pykeepass
 
 ```bash
 # Decrypt with a known password
-python3 keepass-crack.py vault.kdbx -p MyPassword
+python3 keepass-cracker.py vault.kdbx -p MyPassword
 
 # Crack with a wordlist
-python3 keepass-crack.py vault.kdbx -w /usr/share/wordlists/rockyou.txt
+python3 keepass-cracker.py vault.kdbx -w /usr/share/wordlists/rockyou.txt
 ```
 
 ## Output
